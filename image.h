@@ -8,6 +8,9 @@
 class Image
 {
 protected:
+    void * ptrRawImage;
+    unsigned int size;
+
     double height;
     double width;
     QMap<int, Channel*> channels;

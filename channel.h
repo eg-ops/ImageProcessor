@@ -8,6 +8,7 @@ class Channel
 public:
     Channel();
     ~Channel();
+    int getBitsPerPixel();
 };
 
 #endif // CHANNEL_H

@@ -22,7 +22,8 @@ HEADERS += imageprocessor.h\
     channel.h \
     image.h \
     imagefactory.h \
-    bmpimage.h
+    bmpimage.h \
+    defaultchannelids.h
 
 unix {
     target.path = /usr/lib
