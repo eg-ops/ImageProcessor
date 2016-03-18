@@ -14,13 +14,13 @@ DEFINES += IMAGEPROCESSOR_LIBRARY
 SOURCES += imageprocessor.cpp \
     channel.cpp \
     image.cpp \
-    image_factory.cpp
+    imagefactory.cpp
 
 HEADERS += imageprocessor.h\
         imageprocessor_global.h \
     channel.h \
     image.h \
-    image_factory.h
+    imagefactory.h
 
 unix {
     target.path = /usr/lib

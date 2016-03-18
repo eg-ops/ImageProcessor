@@ -3,11 +3,11 @@
 
 #include <QObject>
 
-class image
+class Image
 {
 public:
-    image();
-    ~image();
+
 };
 
+Q_DECLARE_INTERFACE(Image, "Image.ImageProcessorInterface/1.0")
 #endif // IMAGE_H
